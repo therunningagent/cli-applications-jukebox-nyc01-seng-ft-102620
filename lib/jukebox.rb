@@ -24,11 +24,14 @@ end
 def list(songs)
   songs.each.with_index(1) do |song, index|
     puts "#{index}. #{song}"
-    binding.pry 
   end 
 end 
 
-def play
+def play(songs)
+  puts "Please enter a song name or number:"
+  user_input = gets.strip
+  
+  if user_input = 
 end 
 
 def exit_jukebox
