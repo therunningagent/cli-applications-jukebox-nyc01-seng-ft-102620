@@ -5,4 +5,4 @@ end
 puts "Enter your name:"
 users_name = gets.strip
 
-puts say_hhello(users_name)
+puts say_hello(users_name)
