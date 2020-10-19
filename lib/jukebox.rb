@@ -21,10 +21,10 @@ def help
   puts "- exit : exits this program"
 end 
 
-def play
+def list(songs)
 end 
 
-def list 
+def play
 end 
 
 def exit_jukebox
